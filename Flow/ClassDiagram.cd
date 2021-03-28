@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Flow::DynamicSolver&lt;Point, Scalar, ExecutionPolicy, &gt;">
+    <Position X="13.5" Y="0.5" Width="3.5" />
+    <InheritanceLine Type="Flow::StaticSolver&lt;Point, Scalar, ExecutionPolicy, &gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="0.75" />
+        <Point X="13.5" Y="0.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>JAUAQEIYIAAAAwAGEAAIAAAEAAFAEEAEBAAAhBAYAAA=</HashCode>
+      <FileName>DynamicSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flow::Line&lt;Point&gt;">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAgAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flow::AttachedLine&lt;Point&gt;">
+    <Position X="0.5" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flow::BasePart&lt;Point&gt;">
+    <Position X="3.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAECAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAQA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flow::Part&lt;Point&gt;">
+    <Position X="3.5" Y="3.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Flow::Part&lt;Point&gt;::raw_line_iterator&lt;PartT&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Obstacle.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Flow::Part&lt;Point&gt;::raw_point_iterator&lt;FwrdLineIt, RepeatAttachPoints, &gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Obstacle.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Flow::Part&lt;Point&gt;::ConstPointIterable&lt;Rep&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Obstacle.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAACMAAAAABAAAAAAAAQAAAAAAACIAAAAgAAAAA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flow::StaticSolver&lt;Point, Scalar, ExecutionPolicy, &gt;">
+    <Position X="9.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AIBQEAAEAAQAIBAAIBAAQgACAAABEAqBQAAAAEEZIQA=</HashCode>
+      <FileName>StaticSolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Rectangle&lt;Scalar&gt;" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEIAAAAAAAAggAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="scalar_field_func" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="policy_name" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>util.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
